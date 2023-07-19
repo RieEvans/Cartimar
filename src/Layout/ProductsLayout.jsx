@@ -50,7 +50,7 @@ export const ProductsLayout = () => {
           Chairs
         </NavLink>
       </div>
-
+      
       <Outlet />
     </section>
   );

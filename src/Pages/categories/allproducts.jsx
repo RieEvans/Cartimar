@@ -7,7 +7,7 @@ export const All = () => {
     <div className=' mt-5 grid sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-2'>
         {AllProducts.map((items) => {
             return (
-                <Link className='border-2 hover:border-slate-900 transition rounded-t-md' key={items.id}>
+                <Link to = {`/categories/product/${items.id}`} className='border-2 hover:border-slate-900 transition rounded-t-md' key={items.id}>
                     <div className='h-[300px]'>
                         <img className='w-full h-full object-cover rounded-t-md' src={items.img} alt="" />
                     </div>

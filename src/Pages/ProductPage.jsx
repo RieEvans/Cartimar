@@ -3,8 +3,6 @@ import { useParams } from 'react-router-dom'
 import { AllProducts } from '../components/Products'
 
  
- 
-
 export const ProductPage = () => {
 
     const {id} = useParams()
@@ -14,10 +12,10 @@ export const ProductPage = () => {
 
   return (  
     <section className='my-40'>
-        <div>
+        <div className='border-2'>
             <div className='w-[450px]'>   
-                <img className='w-full h-full object-cover rounded-xl' src={image} alt="" />
-                <h1>{item[0].name}</h1>
+                <img className='w-full h-full object-cover ' src={image} alt="" />
+                <h1 className='text-3xl font-bold'>{item[0].name}</h1>
                 <p>{item[0].description}</p>
             </div>
             

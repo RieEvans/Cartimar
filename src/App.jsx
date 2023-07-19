@@ -7,15 +7,15 @@ import {
 } from "react-router-dom";
 
 // Pages
-import { Home } from "./Pages/Home";
-import { Shop } from "./Pages/Shop";
-import { CartContext, ProductPage } from "./Pages/ProductPage";
+import { Home } from "./Pages/Home"; 
+import { ProductPage } from "./Pages/ProductPage";
 import { All } from "./Pages/categories/allproducts";
 import { Furnitures } from "./Pages/categories/Furnitures";
 import { Skincare } from "./Pages/categories/Skincare";
 import { Kitchen } from "./Pages/categories/Kitchen";
 import { Tech } from "./Pages/categories/Tech";
 import { Chairs } from "./Pages/categories/Chairs";
+import { Footer } from "./components/Footer";
 //Layouts
 import { RootLayout } from "./Layout/RootLayout";
 import { ProductsLayout } from "./Layout/ProductsLayout";
@@ -52,10 +52,8 @@ export default function App() {
   )
   return (
     <main className="">
-     
         <RouterProvider router={router} />
-    
-      
+        <Footer />
     </main>
   )
 }

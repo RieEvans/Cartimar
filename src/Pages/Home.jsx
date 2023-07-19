@@ -1,52 +1,54 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { AllProducts } from "../components/Products";
+import { RainySeasonProduct } from "../components/RainySeasonProduct";
 
 export const Home = () => {
   const filterItems = AllProducts.filter((items) => items.id <= 8);
+
   return (
     <section className="mt-40">
-      <div className="h-[100vh] grid md:grid-cols-2 xl:grid-cols-3 gap-2">
-        <Link to={`categories/furnitures`} className="relative overflow-hidden col-span-2">
+      <div className="h-[100vh] grid md:grid-cols-2 xl:grid-cols-3 gap-2 ">
+        <Link to={`categories/furnitures`} className="relative overflow-hidden col-span-2 hover:bg-gradient-to-tr from-slate-900 to-slate-500 ">
           <img
-            className="w-full h-full object-cover "
-            src="/product/furniture2.jpg"
+            className="w-full h-full object-cover mix-blend-overlay "
+            src="/product/furniture6.avif"
           />
-          <h1 className="absolute bottom-2 left-5 text-bold text-2xl text-white">
+          <h1 className="absolute top-0 left-0 bg-slate-900 text-white text-slate-900 p-3  font-semibold">
             Furnitures
           </h1>
         </Link>
-        <Link to={`categories/skincare`} className="relative overflow-hidden row-span-2">
+        <Link to={`categories/skincare`} className="relative overflow-hidden row-span-2 hover:bg-gradient-to-tr from-slate-900 to-slate-500">
           <img
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover  mix-blend-overlay"
             src="/product/skincare2.avif"
           />
-          <h1 className="absolute bottom-2 left-5 text-bold text-2xl text-white">
+          <h1 className="absolute top-0 left-0 bg-slate-900 text-white text-slate-900 p-3  font-semibold">
             Skincare
           </h1>
         </Link>
-        <Link to={`categories/kitchen`} className="relative overflow-hidden">
+        <Link to={`categories/kitchen`} className="relative overflow-hidden hover:bg-gradient-to-tr from-slate-900 to-black-500 ">
           <img
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover mix-blend-overlay"
             src="/product/kitchen.jpg"
           />
-          <h1 className="absolute bottom-2 left-5 text-bold text-2xl text-white">
+          <h1 className="absolute top-0 left-0 bg-slate-900 text-white text-slate-900 p-3  font-semibold">
             Kitchen
           </h1>
         </Link>
-        <Link to={`categories/tech`} className="relative overflow-hidden">
+        <Link to={`categories/tech`} className="relative overflow-hidden hover:bg-gradient-to-tr from-slate-900 to-black-900">
           <img
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover mix-blend-overlay"
             src="/product/gadgets.jpg"
           />
-          <h1 className="absolute bottom-2 left-5 text-bold text-2xl text-white">
+          <h1 className="absolute top-0 left-0 bg-slate-900 text-white text-slate-900 p-3  font-semibold">
             Gadgets
           </h1>
         </Link>
       </div>
 
       <div className="mt-20">
-        <h1 className="font-bold text-2xl text-slate-900">
+        <h1 className="font-bold text-2xl text-slate-900 tracking-wide">
           Top Furnitures this season
         </h1>
         <div className="grid sm:grid-cols-1 md:grid-cols-3 xl:grid-cols-4 gap-5 mt-5">
@@ -107,6 +109,9 @@ export const Home = () => {
           </div>
         </div>
       </div>
+
+      <RainySeasonProduct />
+      
     </section>
   );
 };

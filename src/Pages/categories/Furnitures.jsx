@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import { AllProducts } from '../../components/Products'
 
 export const Furnitures = () => {
-  const filterItems = AllProducts.filter((items) => items.category === "Furniture")
+  const filterItems = AllProducts.filter((items) => items.category === "Furniture" || items.category === "rainy")
 
   return (
     <div className=' mt-5 grid sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-2'>
