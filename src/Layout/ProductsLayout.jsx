@@ -8,7 +8,7 @@ export const ProductsLayout = () => {
   };
 
   return (
-    <section className="mt-40">
+    <section className="mt-40 ">
       <h1 className="font-bold text-3xl text-center">{itemName}</h1>
       <div className="flex flex-wrap items-center justify-start gap-5 mt-10">
         <NavLink

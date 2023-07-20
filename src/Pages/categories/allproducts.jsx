@@ -4,10 +4,10 @@ import { Link } from 'react-router-dom'
 
 export const All = () => {
   return (
-    <div className=' mt-5 grid sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-2'>
+    <div className=' mt-5 grid sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-5'>
         {AllProducts.map((items) => {
             return (
-                <Link to = {`/categories/product/${items.id}`} className='border-2 hover:border-slate-900 transition rounded-t-md' key={items.id}>
+                <Link to = {`/categories/product/${items.id}`} className='bg-white shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] pb-2 rounded-xl' key={items.id}>
                     <div className='h-[300px]'>
                         <img className='w-full h-full object-cover rounded-t-md' src={items.img} alt="" />
                     </div>

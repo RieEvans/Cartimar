@@ -11,7 +11,7 @@ export const Home = () => {
       <div className="h-[100vh] grid md:grid-cols-2 xl:grid-cols-3 gap-2 ">
         <Link to={`categories/furnitures`} className="relative overflow-hidden col-span-2 hover:bg-gradient-to-tr from-slate-900 to-slate-500 ">
           <img
-            className="w-full h-full object-cover mix-blend-overlay "
+            className="w-full h-full object-cover  "
             src="/product/furniture6.avif"
           />
           <h1 className="absolute top-0 left-0 bg-slate-900 text-white text-slate-900 p-3  font-semibold">
@@ -20,7 +20,7 @@ export const Home = () => {
         </Link>
         <Link to={`categories/skincare`} className="relative overflow-hidden row-span-2 hover:bg-gradient-to-tr from-slate-900 to-slate-500">
           <img
-            className="w-full h-full object-cover  mix-blend-overlay"
+            className="w-full h-full object-cover  "
             src="/product/skincare2.avif"
           />
           <h1 className="absolute top-0 left-0 bg-slate-900 text-white text-slate-900 p-3  font-semibold">
@@ -29,7 +29,7 @@ export const Home = () => {
         </Link>
         <Link to={`categories/kitchen`} className="relative overflow-hidden hover:bg-gradient-to-tr from-slate-900 to-black-500 ">
           <img
-            className="w-full h-full object-cover mix-blend-overlay"
+            className="w-full h-full object-cover "
             src="/product/kitchen.jpg"
           />
           <h1 className="absolute top-0 left-0 bg-slate-900 text-white text-slate-900 p-3  font-semibold">
@@ -38,7 +38,7 @@ export const Home = () => {
         </Link>
         <Link to={`categories/tech`} className="relative overflow-hidden hover:bg-gradient-to-tr from-slate-900 to-black-900">
           <img
-            className="w-full h-full object-cover mix-blend-overlay"
+            className="w-full h-full object-cover "
             src="/product/gadgets.jpg"
           />
           <h1 className="absolute top-0 left-0 bg-slate-900 text-white text-slate-900 p-3  font-semibold">
@@ -56,7 +56,7 @@ export const Home = () => {
             return (
               <Link
                 to={`/categories/product/${items.id}`}
-                className="border-2 hover:border-slate-900 transition rounded-t-md"
+                className="bg-white space-y-4 pb-2 shadow-[0_3px_10px_rgb(0,0,0,0.2)] rounded-t-md"
                 key={items.id}>
                 <div className="h-[300px]">
                   <img
@@ -81,7 +81,7 @@ export const Home = () => {
       </div>
 
       <div className="my-20 ">
-        <div className="flex bg-zinc-100 items-center py-10 h-[300px] overflow-hidden ">
+        <div className="flex bg-white items-center py-10 h-[300px] overflow-hidden ">
           <div className=" w-full flex flex-col items-center ">
             <div className="mx-auto sm:w-[80%] md:w-[50%]">
               <h1 className="text-slate-900 font-bold text-3xl">
