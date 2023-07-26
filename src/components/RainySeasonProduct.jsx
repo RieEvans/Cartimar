@@ -30,7 +30,7 @@ export const RainySeasonProduct = () => {
       <main id="slider" className="my-5 flex gap-2 overflow-auto scroll-smooth no-scrollbar cursor-grab  w-full">
         {filterProductRainy.map((rainyItems) => {
           return (
-            <Link onDragCapture={handleDragCapture}  to={`/categories/product/${rainyItems.id}`} className="" key={rainyItems.id}>
+            <Link onDragCapture={handleDragCapture} onClick={() => window.top(0, 0)} to={`/categories/product/${rainyItems.id}`} className="" key={rainyItems.id}>
               <div className="w-[297px]">
                 <img className="w-full h-full object-cover" src={rainyItems.img} alt="" />
               </div>

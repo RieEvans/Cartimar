@@ -11,7 +11,7 @@ export const Tech = () => {
     {filterItems.map((items) => {
        return (
         <div className='bg-white shadow-[0_3px_10px_rgb(0,0,0,0.2)] pb-2 rounded-xl' key={items.id}>
-            <Link to={`/categories/product/${items.id}`} >
+            <Link onClick={() => window.top(0, 0)} to={`/categories/product/${items.id}`} >
               <div className='h-[300px]'>
                 <img className='w-full h-full object-cover rounded-t-md' src={items.img} alt="" />
               </div>

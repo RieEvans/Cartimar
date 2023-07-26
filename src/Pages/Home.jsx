@@ -69,7 +69,7 @@ export const Home = () => {
               <div
                 className="bg-white space-y-4 pb-2 shadow-[0_3px_10px_rgb(0,0,0,0.2)] rounded-t-md hover:scale-105 transition ease-in-out duration-300 "
                 key={items.id}>
-                <Link to={`/categories/product/${items.id}`}>
+                <Link onClick={() => window.top(0, 0)} to={`/categories/product/${items.id}`}>
                   <div className="h-[300px]">
                     <img
                       className="w-full h-full object-cover rounded-t-md"

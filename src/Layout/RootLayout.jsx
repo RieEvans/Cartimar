@@ -16,8 +16,8 @@ export const RootLayout = () => {
         
             <nav className='flex items-center justify-center sm:w-full md:w-[300px]  gap-2 '>
                 <NavLink className={`text-md font-semibold bg-slate-900 rounded-md text-white px-3 py-1 flex items-center gap-2`} to={`/`} onClick={() => window.top(0, 0)}><i className="fa-solid fa-house-user"></i> Home</NavLink>
-                <NavLink className={`text-md font-semibold bg-slate-900 rounded-md text-white px-3 py-1 flex items-center gap-2`} to= '/categories/allproducts' ><i className="fa-brands fa-product-hunt"></i>Products</NavLink>
-                <NavLink className={`text-md font-semibold bg-slate-900 rounded-md text-white px-3 py-1 relative`} to={`/Cart-Item`}>
+                <NavLink className={`text-md font-semibold bg-slate-900 rounded-md text-white px-3 py-1 flex items-center gap-2`} to= '/categories/allproducts' onClick={() => window.top(0, 0)} ><i className="fa-brands fa-product-hunt"></i>Products</NavLink>
+                <NavLink className={`text-md font-semibold bg-slate-900 rounded-md text-white px-3 py-1 relative`} to={`/Cart-Item`} onClick={() => window.top(0, 0)} >
                   <i data-array-length={cartItem.length} className={`fa-solid fa-cart-shopping ${cartItem.length < 1 ? "cart-icon" : "cart-icon with-items"}`}></i>
                 </NavLink>
             </nav>

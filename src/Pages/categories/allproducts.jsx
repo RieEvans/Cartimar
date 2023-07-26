@@ -14,7 +14,7 @@ export const All = () => {
             <div
               className="bg-white shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] pb-2 rounded-xl"
               key={items.id}>
-              <Link to={`/categories/product/${items.id}`}>
+              <Link onClick={() => window.top(0, 0)} to={`/categories/product/${items.id}`}>
                 <div className="h-[300px]">
                   <img
                     className="w-full h-full object-cover rounded-t-md"
