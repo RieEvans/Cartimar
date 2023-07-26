@@ -110,7 +110,7 @@ export const AllProducts = [
   },
   {
     id: 6,
-    img: "/product/pr7.avif",
+    img: "/product/pr6.avif",
     OtherImg: [Cabinet1, Cabinet2],
     category: "Furniture",
     name: "KLEPPSTAD",
