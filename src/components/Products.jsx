@@ -1,7 +1,7 @@
-import Pillow1 from "/public/others/pr1.1.avif";
-import Pillow2 from "/public/others/pr1.2.avif";
-import Bag1 from "/public/others/pr2.1.avif";
-import Bag2 from "/public/others/pr2.2.avif";
+import Pillow1 from "/others/pr1.1.avif";
+import Pillow2 from "/others/pr1.2.avif";
+import Bag1 from "/others/pr2.1.avif";
+import Bag2 from "/others/pr2.2.avif";
 import Pad1 from "/others/pr3.1.avif";
 import Pad2 from "/others/pr3.2.avif";
 import WaterProof1 from "/others/pr4.1.avif";
@@ -23,7 +23,7 @@ import Headset2 from "/others/pr11.2.avif";
 import Oven1 from "/others/pr12.1.avif";
 import Oven2 from "/others/pr12.2.avif";
 import Knife1 from "/others/pr13.1.avif";
-import Knife2 from "/others/pr13.2.avif";
+import Knife2 from "/others/pr13.2.avif";  
 import Basket1 from "/others/pr14.1.avif";
 import Basket2 from "/others/pr14.2.avif";
 import Organizer1 from "/others/pr15.1.avif";
@@ -160,7 +160,7 @@ export const AllProducts = [
   },
   {
     id: 11,
-    img: "/product/electronics.avif",
+    img: "/product/electronics.avif", 
     category: "electronics",
     OtherImg: [Headset1, Headset2],
     name: "MÖJLIGHET",
