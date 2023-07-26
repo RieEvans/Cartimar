@@ -35,7 +35,6 @@ export default function App() {
         style: {
           borderRadius: "10px",
           background: "#333",
-          color: "#fff",
           fontSize: "18px",
         },
       }
@@ -46,7 +45,6 @@ export default function App() {
       style: {
         borderRadius: "10px",
         background: "#333",
-        color: "#fff",
         fontSize: "18px",
       },
     }
