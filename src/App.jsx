@@ -34,8 +34,8 @@ export default function App() {
       {
         style: {
           borderRadius: "10px",
-          background: "#333",
-          color: "#fff",
+          background: "#0F172A",
+          color: "#EEE",
           fontSize: "18px",
         },
       }
@@ -45,8 +45,8 @@ export default function App() {
     {
       style: {
         borderRadius: "10px",
-        background: "#333",
-        color: "#fff",
+        background: "#0F172A",
+        color: "#EEE",
         fontSize: "18px",
       },
     }
@@ -95,7 +95,7 @@ export default function App() {
   return (
     <CartContext.Provider value={{ cartItem, setCartItem, addToCart, notify, notifyDeleteItem }}>
       <main>
-        <Toaster position="top-center" reverseOrder={false}></Toaster>
+        <Toaster position="bottom-center" reverseOrder={false}></Toaster>
         <RouterProvider router={router} />
         <Footer />
       </main>
