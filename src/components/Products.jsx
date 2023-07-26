@@ -1,16 +1,16 @@
-import Pillow1 from "/others/pr1.1.avif";
-import Pillow2 from "/others/pr1.2.avif";
-import Bag1 from "/others/pr2.1.avif";
-import Bag2 from "/others/pr2.2.avif";
-import Pad1 from "/others/pr3.1.avif";
-import Pad2 from "/others/pr3.2.avif";
-import WaterProof1 from "/others/pr4.1.avif";
-import WaterProof2 from "/others/pr4.2.avif";
-import LaundryBag1 from "/others/pr5.1.avif";
+import Pillow1 from "/others/pr1.1.jpg";
+import Pillow2 from "/others/pr1.2.jpg";
+import Bag1 from "/others/pr2.1.jpg";
+import Bag2 from "/others/pr2.2.jpg";
+import Pad1 from "/others/pr3.1.jpg";
+import Pad2 from "/others/pr3.2.jpg";
+import WaterProof1 from "/others/pr4.1.jpg";
+import WaterProof2 from "/others/pr4.2.jpg";
+import LaundryBag1 from "/others/pr5.1.jpg";
 import LaundryBag2 from "/others/pr5.2.jpg";
-import Cabinet1 from "/others/pr6.1.avif";
-import Cabinet2 from "/others/pr6.2.avif";
-import Chair1 from "/others/pr7.1.avif";
+import Cabinet1 from "/others/pr6.1.jpg";
+import Cabinet2 from "/others/pr6.2.jpg";
+import Chair1 from "/others/pr7.1.jpg";
 import Chair2 from "/others/pr7.2.avif";
 import ChairGray1 from "/others/pr8.1.avif";
 import ChairGray2 from "/others/pr8.2.avif";
@@ -90,7 +90,7 @@ export const AllProducts = [
   },
   {
     id: 4,
-    img: "../product/pr4.jpg",
+    img: "/product/pr4.jpg",
     OtherImg: [WaterProof1, WaterProof2],
     category: "Furniture",
     name: "RENSARE",
@@ -170,7 +170,7 @@ export const AllProducts = [
   },
   {
     id: 12,
-    img: "/product/kitchen.jpg",
+    img: "/product/kitchenOven.jpg",
     OtherImg: [Oven1, Oven2],
     category: "kitchen",
     name: "GÖRLIG",

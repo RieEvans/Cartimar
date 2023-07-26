@@ -29,7 +29,7 @@ export const Home = () => {
           className="relative overflow-hidden row-span-2 hover:bg-gradient-to-tr from-slate-900 to-slate-500">
           <img
             className="w-full h-full object-cover  "
-            src="/product/skincare2.avif"
+            src="/product/skincare2.jpg"
           />
           <h1 className="absolute top-0 left-0 bg-slate-900 text-white text-slate-900 p-3  font-semibold">
             Skincare
