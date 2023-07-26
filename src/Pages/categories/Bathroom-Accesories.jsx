@@ -20,7 +20,6 @@ export const BathroomAccesories = () => {
                 <div  className='h-[300px]'>
                   <img className='w-full h-full object-cover rounded-t-md' src={items.img} alt="" />
                 </div>
-                  
               </Link>
              
               <div className='p-2 flex flex-col'>
