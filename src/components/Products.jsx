@@ -1,258 +1,313 @@
-export const HomeProduct = [
-  {
-    id: 1,
-    img: "/product/pr1.avif",
-    name: "Ergonomic Pillow",
-    type: "Furniture",
-    price: "₱ 2990",
-  },
-  {
-    id: 2,
-    img: "/product/skincare2.avif",
-    name: "Ergonomic Pillow",
-    type: "Skincare",
-    price: "₱ 2990",
-  },
-  {
-    id: 4,
-    img: "/product/kitchen2.avif",
-    name: "Ergonomic Pillow",
-    type: "Kitchen",
-    price: "₱ 2990",
-  },
-  {
-    id: 5,
-    img: "/product/electronics.avif",
-    name: "Ergonomic Pillow",
-    type: "Electronics",
-    price: "₱ 2990",
-  },
-];
+import Pillow1 from "/others/pr1.1.avif";
+import Pillow2 from "/others/pr1.2.avif";
+import Bag1 from "/others/pr2.1.avif";
+import Bag2 from "/others/pr2.2.avif";
+import Pad1 from "/others/pr3.1.avif";
+import Pad2 from "/others/pr3.2.avif";
+import WaterProof1 from "/others/pr4.1.avif"
+import WaterProof2 from "/others/pr4.2.avif"
+import LaundryBag1 from "/others/pr5.1.avif"
+import LaundryBag2 from "/others/pr5.2.jpg"
+import Cabinet1 from "/others/pr6.1.avif" 
+import Cabinet2 from "/others/pr6.2.avif"
+import Chair1 from "/others/pr7.1.avif"
+import Chair2 from "/others/pr7.2.avif"
+import ChairGray1  from "/others/pr8.1.avif"
+import ChairGray2 from "/others/pr8.2.avif"
+import MiniChair1 from "/others/pr9.1.avif"
+import MiniChair2 from "/others/pr9.2.avif"
+import Lamp1 from "/others/pr10.1.jpg"
+import Lamp2 from "/others/pr10.2.jpg"
+import Headset1 from "/others/pr11.1.jpg"
+import Headset2 from "/others/pr11.2.avif"
+import Oven1 from "/others/pr12.1.avif"
+import Oven2 from "/others/pr12.2.avif"
+import Knife1 from "/others/pr13.1.avif"
+import Knife2 from "/others/pr13.2.avif"
+import Basket1 from "/others/pr14.1.avif"
+import Basket2 from "/others/pr14.2.avif"
+import Organizer1 from "/others/pr15.1.avif"
+import Organizer2 from "/others/pr15.2.avif"
+import ToilerRollHolder1 from "/others/pr16.1.avif"
+
+import TrashCan1 from "/others/pr17.1.avif"
+import TrashCan2 from "/others/pr17.2.avif"
+
+import ShelfCover1 from "/others/pr18.1.avif"
+import ShelfCover2 from "/others/pr18.2.avif"
+
+import Bin1 from "/others/pr19.1.avif"
+import Bin2 from "/others/pr19.2.avif"
+
+import RecycleBag1 from "/others/pr20.1.avif"
+import RecycleBag2 from "/others/pr20.2.avif"
+
+import Hallbar1 from "/others/pr21.1.avif"
+import Hallbar2 from "/others/pr21.2.avif"
+
+import Umbrella1 from "/others/pr22.1.avif"
+import Umbrella2 from "/others/pr22.2.avif"
+
+import Hanger1 from "/others/pr23.1.avif"
+import Hanger2 from "/others/pr23.2.avif"
+
+import DoorHanger1 from "/others/pr24.1.avif"
+import DoorHanger2 from "/others/pr24.2.avif"
+
+import ClotheStand1 from "/others/pr25.1.jpg"
+import ClotheStand2 from "/others/pr25.2.avif"
+
+
 
 export const AllProducts = [
   {
     id: 1,
     img: "/product/pr1.avif",
-    category:'Furniture',
+    OtherImg: [Pillow1, Pillow2],
+    category: "Furniture",
     name: "KVARNVEN",
     description: "Ergonomic pillow, side/back sleeper,",
     type: "Furnitures",
-    price: "₱ 580",
+    price: 580,
   },
   {
     id: 2,
     img: "/product/pr2.avif",
-    category:'Furniture',
+    OtherImg: [Bag1, Bag2],
+    category: "Furniture",
     name: "RÄCKLA",
     description: "Bag, foldable, black,",
     type: "Furnitures",
-    price: "₱ 390",
+    price: 390,
   },
   {
     id: 3,
     img: "/product/pr3.avif",
-    category:'Furniture',
+    OtherImg: [Pad1, Pad2],
+    category: "Furniture",
     name: "REXBEGONIA",
     description: "Cooling pad",
     type: "Furnitures",
-    price: "₱ 490",
+    price: 490,
   },
   {
     id: 4,
     img: "/product/pr4.avif",
-    category:'Furniture',
+    OtherImg: [WaterProof1, WaterProof2],
+    category: "Furniture",
     name: "RENSARE",
     description: "Waterproof Bag",
     type: "Furnitures",
-    price: "₱ 390",
+    price: 390,
   },
   {
     id: 5,
     img: "/product/pr5.avif",
-    category:'Furniture',
+    OtherImg: [LaundryBag1, LaundryBag2],
+    category: "Furniture",
     name: "KNALLA",
     description: "Laundry Bag",
     type: "Furnitures",
-    price: "₱ 150",
+    price: 150,
   },
   {
     id: 6,
     img: "/product/pr6.avif",
-    category:'Furniture',
-    name: "Wooden Cabinet",
-    description: "Height 182cm x Width 121cm",
+    OtherImg: [Cabinet1, Cabinet2],
+    category: "Furniture",
+    name: "KLEPPSTAD",
+    description: "Shoe/storage cabinet, white,",
     type: "Furnitures",
-    price: "₱ 1870",
+    price: 6990,
   },
   {
     id: 7,
     img: "/product/pr7.avif",
-    category:'chairs',
-    name: "Wooden Chair",
-    description: "Chair",
+    OtherImg: [Chair1, Chair2],
+    category: "Chairs",
+    name: "LISABO",
+    description: "Chair, ash",
     type: "Furnitures",
-    price: "₱ 750",
+    price: 3550,
   },
   {
     id: 8,
     img: "/product/pr8.avif",
-    category:'chairs',
-    name: "Curve Chair",
-    description: "Chair",
+    category: "Chairs",
+    OtherImg: [ChairGray1, ChairGray2],
+    name: "ÄSPHULT",
+    description: "Chair cover, universal/gray",
     type: "Furnitures",
-    price: "₱ 750",
+    price: 990,
   },
   {
     id: 9,
     img: "/product/pr9.avif",
-    category:'chairs',
-    name: "Mini Chair",
-    description: "Chair",
+    OtherImg: [MiniChair1, MiniChair2],
+    category: "Chairs",
+    name: "KARLJAN",  
+    description: "Chair, turquoise/Kabusa turquoise",
     type: "Furnitures",
-    price: "₱ 750",
+    price: 2250,
   },
   {
     id: 10,
     img: "/product/pr10.avif",
-    category:'Furniture',
-    name: "Lampshade",
-    description: "Aesthetic Lamp",
+    OtherImg: [Lamp1, Lamp2],
+    category: "Furniture",
+    name: "RINGSTA",
+    description: "Lamp shade, white, 17 inch ",
     type: "Furnitures",
-    price: "₱ 550",
+    price: 890 ,
   },
   {
     id: 11,
     img: "/product/electronics.avif",
-    category:'electronics',
-    name: "BM3 Headset",
-    description: "Skyblue colored",
+    category: "electronics",
+    OtherImg: [Headset1, Headset2],
+    name: "MÖJLIGHET",
+    description: "Headset and tablet stand, white",
     type: "Electronics",
-    price: "₱ 1120",
+    price: 200,
   },
   {
     id: 12,
     img: "/product/kitchen.avif",
-    category:'kitchen',
-    name: "Oven Toaster",
-    description: "High Quality Oven Toaster",
+    OtherImg: [Oven1, Oven2],
+    category: "kitchen",
+    name: "GÖRLIG",
+    description: "Oven, Stainless steel",
     type: "Furnitures",
-    price: "₱ 3400",
+    price: 20990,
   },
   {
     id: 13,
     img: "/product/kitchen2.avif",
-    category:'kitchen',
-    name: "Toaster",
-    description: "High Quality Toaster",
+    OtherImg: [Knife1, Knife2],
+    category: "kitchen",
+    name: "Bread Knife",
+    description: "Bread knife, stainless steel, 23 cm ",
     type: "Furnitures",
-    price: "₱ 1250",
+    price: 990 ,
   },
   {
     id: 14,
-    img: "/product/skincare1.avif",
-    category:'skincare',
-    name: "Body Lotion",
-    description: "Lotion",
+    img: "/product/bathroom.avif",
+    OtherImg: [Basket1, Basket2],
+    category: "bathroom",
+    name: "TISKEN",
+    description: "Basket with suction cup, white",
     type: "Furnitures",
-    price: "₱ 860",
+    price: 300 ,
   },
   {
     id: 15,
-    img: "/product/skincare2.avif",
-    category:'skincare',
-    name: "Vitaskin",
-    description: "Lotion",
+    img: "/others/organizer.avif",
+    OtherImg: [Organizer1, Organizer2],
+    category: "bathroom",
+    name: "NOJIG",
+    description: "Organizer, plastic/beige,",
     type: "Furnitures",
-    price: "₱ 1550 Package",
+    price: 60,
   },
   {
     id: 16,
-    img: "/product/skincare3.avif",
-    category:'skincare',
-    name: "Moisturizer",
-    description: "Moisturizer",
+    img: "/product/pr16.avif",
+    OtherImg: [ToilerRollHolder1],
+    category: "bathroom",
+    name: "LILLASJÖN",
+    description: "Toilet roll holder",
     type: "Furnitures",
-    price: "₱ 1120",
+    price: 350 ,
   },
   {
     id: 17,
     img: "/product/rs1.avif",
-    category:'rainy', 
-    name: "Rensare",
-    description: "Waterproof Bag",
+    OtherImg: [TrashCan1, TrashCan2],
+    category: "Rain Season Item",
+    name: "VARIERA",
+    description: "Trash can, white, 10 l (3 gallon)",
     type: "Furnitures",
-    price: "₱ 190",
+    price: 150,
   },
   {
     id: 18,
     img: "/product/rs2.avif",
-    category:'rainy',
+    OtherImg: [ShelfCover1, ShelfCover2],
+    category: "Rain Season Item",
     name: "Hylis",
-    description: "Cover, 60x27x140 cm ",
+    description: "Shelf unit, indoor/outdoor, ",
     type: "Furnitures",
-    price: "₱ 300",
+    price: 1490,
   },
   {
     id: 19,
-    img: "/product/rs3.avif",
-    category:'rainy',
+    img: "/product/rs3.jpg",
+    OtherImg: [Bin1, Bin2],
+    category: "Rain Season Item",
     name: "Sortera",
     description: "Recycling Bin",
     type: "Furnitures",
-    price: "₱ 1290",
+    price: 1290,
   },
   {
     id: 20,
     img: "/product/rs4.avif",
-    category:'rainy',
+    OtherImg: [RecycleBag1, RecycleBag2],
+    category: "Rain Season Item",
     name: "Ajoss  ",
     description: "Recycling Bag",
     type: "Furnitures",
-    price: "₱ 90",
+    price: 90,
   },
   {
     id: 21,
     img: "/product/rs5.avif",
-    category:'rainy',
+    OtherImg: [Hallbar1, Hallbar2],
+    category: "Rain Season Item",
     name: "Hallbar",
     description: "Bin with Lid, 22L (6 Gallon)",
     type: "Furnitures",
-    price: "₱ 590",
+    price: 590,
   },
   {
     id: 22,
     img: "/product/rs6.avif",
-    category:'rainy',
+    OtherImg: [Umbrella1, Umbrella2],
+    category: "Rain Season Item",
     name: "Knalla",
     description: "Umbrella",
     type: "Furnitures",
-    price: "₱ 390",
+    price: 390,
   },
   {
     id: 23,
     img: "/product/rs7.webp",
-    category:'rainy',
+    OtherImg: [Hanger1, Hanger2],
+    category: "Rain Season Item",
     name: "Tjusig",
     description: "Hangar",
     type: "Furnitures",
-    price: "₱ 890",
+    price: 890,
   },
   {
     id: 24,
     img: "/product/rs8.avif",
-    category:'rainy',
+    OtherImg: [DoorHanger1, DoorHanger2],
+    category: "Rain Season Item",
     name: "Enudden",
     description: "Hanger for Door",
     type: "Furnitures",
-    price: "₱ 300",
+    price: 300,
   },
   {
     id: 25,
     img: "/product/rs9.avif",
-    category:'rainy',
+    OtherImg: [ClotheStand1, ClotheStand2],
+    category: "Rain Season Item",
     name: "Krokig",
     description: "Clothes Stand",
     type: "Furnitures",
-    price: "₱ 1590",
+    price: 1590,
   },
 ];

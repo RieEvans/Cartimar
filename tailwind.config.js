@@ -6,7 +6,7 @@ export default {
   ],
   theme: {
     screens: {
-      'sm':'300px',
+      'sm':'250px',
     
       'md': '720px', // => @media (min-width: 720px) { TABLET}
 

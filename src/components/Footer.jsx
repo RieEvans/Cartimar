@@ -1,9 +1,10 @@
 import React from "react";
 
+
 export const Footer = () => {
   return (
     <footer className="mt-5 w-full bg-zinc-100 h-full">
-      <section className="bg-gray-800 w-full flex flex-col items-center justify-center py-10">
+      <section className="bg-slate-900 w-full flex flex-col items-center justify-center py-10">
             
             <div className="flex gap-2 items-center text-white">
                 <h1>About</h1>
@@ -16,6 +17,7 @@ export const Footer = () => {
                 <h1>Riejan Evangelista</h1>
             </div>
       </section>
+     
     </footer>
   );
 };

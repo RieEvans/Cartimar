@@ -27,7 +27,7 @@ export const RainySeasonProduct = () => {
   return (
     <section className="relative ">
         <h1 className="font-bold text-2xl text-slate-900 tracking-wide">Products for this Rainy Season</h1>
-      <main id="slider" className="my-5 flex gap-2  overflow-auto scroll-smooth no-scrollbar cursor-grab">
+      <main id="slider" className="my-5 flex gap-2 overflow-auto scroll-smooth no-scrollbar cursor-grab  w-full">
         {filterProductRainy.map((rainyItems) => {
           return (
             <Link onDragCapture={handleDragCapture}  to={`/categories/product/${rainyItems.id}`} className="" key={rainyItems.id}>
