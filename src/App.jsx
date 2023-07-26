@@ -30,11 +30,12 @@ export default function App() {
   };
   const notify = () => // Notification //Pass this function into the Context Provider
     toast(
-      "✔️ Add to Cart Succeed", 
+      "Add to Cart Succeed ✔️", 
       {
         style: {
           borderRadius: "10px",
           background: "#333",
+          color: "#fff",
           fontSize: "18px",
         },
       }
@@ -45,6 +46,7 @@ export default function App() {
       style: {
         borderRadius: "10px",
         background: "#333",
+        color: "#fff",
         fontSize: "18px",
       },
     }
