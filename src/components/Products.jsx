@@ -62,7 +62,7 @@ import ClotheStand2 from "/others/pr25.2.avif"
 export const AllProducts = [
   {
     id: 1,
-    img: "../product/pr1.avif",
+    img: "/public/product/pr1.avif",
     OtherImg: [Pillow1, Pillow2],
     category: "Furniture",
     name: "KVARNVEN",
@@ -72,7 +72,7 @@ export const AllProducts = [
   },
   {
     id: 2,
-    img: "../product/pr2.avif",
+    img: "/public/product/pr2.avif",
     OtherImg: [Bag1, Bag2],
     category: "Furniture",
     name: "RÄCKLA",
@@ -82,7 +82,7 @@ export const AllProducts = [
   },
   {
     id: 3,
-    img: "../product/pr3.avif",
+    img: "/public/product/pr3.avif",
     OtherImg: [Pad1, Pad2],
     category: "Furniture",
     name: "REXBEGONIA",
