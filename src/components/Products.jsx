@@ -60,7 +60,7 @@ import ClotheStand2 from "/others/pr25.2.avif";
 export const AllProducts = [
   {
     id: 1,
-    img: "/product/pr1.avif",
+    img: "/product/pr1.jpg",
     OtherImg: [Pillow1, Pillow2],
     category: "Furniture",
     name: "KVARNVEN",
@@ -70,7 +70,7 @@ export const AllProducts = [
   },
   {
     id: 2,
-    img: "/product/pr2.avif",
+    img: "/product/pr2.jpg",
     OtherImg: [Bag1, Bag2],
     category: "Furniture",
     name: "RÄCKLA",
@@ -80,7 +80,7 @@ export const AllProducts = [
   },
   {
     id: 3,
-    img: "/product/pr3.avif",
+    img: "/product/pr3.jpg",
     OtherImg: [Pad1, Pad2],
     category: "Furniture",
     name: "REXBEGONIA",
@@ -90,7 +90,7 @@ export const AllProducts = [
   },
   {
     id: 4,
-    img: "../product/pr4.avif",
+    img: "../product/pr4.jpg",
     OtherImg: [WaterProof1, WaterProof2],
     category: "Furniture",
     name: "RENSARE",
@@ -100,7 +100,7 @@ export const AllProducts = [
   },
   {
     id: 5,
-    img: "/product/pr5.avif",
+    img: "/product/pr5.jpg",
     OtherImg: [LaundryBag1, LaundryBag2],
     category: "Furniture",
     name: "KNALLA",
@@ -110,7 +110,7 @@ export const AllProducts = [
   },
   {
     id: 6,
-    img: "/product/pr6.avif",
+    img: "/product/pr6.jpg",
     OtherImg: [Cabinet1, Cabinet2],
     category: "Furniture",
     name: "KLEPPSTAD",
@@ -130,7 +130,7 @@ export const AllProducts = [
   },
   {
     id: 8,
-    img: "/product/pr8.avif",
+    img: "/product/pr8.jpg",
     category: "Chairs",
     OtherImg: [ChairGray1, ChairGray2],
     name: "ÄSPHULT",
@@ -250,7 +250,7 @@ export const AllProducts = [
   },
   {
     id: 20,
-    img: "/product/rs4.avif",
+    img: "/product/rs4.jpg",
     OtherImg: [RecycleBag1, RecycleBag2],
     category: "Rain Season Item",
     name: "Ajoss  ",
