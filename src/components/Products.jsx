@@ -11,51 +11,51 @@ import LaundryBag2 from "/others/pr5.2.jpg";
 import Cabinet1 from "/others/pr6.1.jpg";
 import Cabinet2 from "/others/pr6.2.jpg";
 import Chair1 from "/others/pr7.1.jpg";
-import Chair2 from "/others/pr7.2.avif";
-import ChairGray1 from "/others/pr8.1.avif";
-import ChairGray2 from "/others/pr8.2.avif";
-import MiniChair1 from "/others/pr9.1.avif";
-import MiniChair2 from "/others/pr9.2.avif";
+import Chair2 from "/others/pr7.2.jpg";
+import ChairGray1 from "/others/pr8.1.jpg";
+import ChairGray2 from "/others/pr8.2.jpg";
+import MiniChair1 from "/others/pr9.1.jpg";
+import MiniChair2 from "/others/pr9.2.jpg";
 import Lamp1 from "/others/pr10.1.jpg";
 import Lamp2 from "/others/pr10.2.jpg";
 import Headset1 from "/others/pr11.1.jpg";
-import Headset2 from "/others/pr11.2.avif";
-import Oven1 from "/others/pr12.1.avif";
-import Oven2 from "/others/pr12.2.avif";
-import Knife1 from "/others/pr13.1.avif";
-import Knife2 from "/others/pr13.2.avif";  
-import Basket1 from "/others/pr14.1.avif";
-import Basket2 from "/others/pr14.2.avif";
-import Organizer1 from "/others/pr15.1.avif";
-import Organizer2 from "/others/pr15.2.avif";
-import ToilerRollHolder1 from "/others/pr16.1.avif";
+import Headset2 from "/others/pr11.2.jpg";
+import Oven1 from "/others/pr12.1.jpg";
+import Oven2 from "/others/pr12.2.jpg";
+import Knife1 from "/others/pr13.1.jpg";
+import Knife2 from "/others/pr13.2.jpg";  
+import Basket1 from "/others/pr14.1.jpg";
+import Basket2 from "/others/pr14.2.jpg";
+import Organizer1 from "/others/pr15.1.jpg";
+import Organizer2 from "/others/pr15.2.jpg";
+import ToilerRollHolder1 from "/others/pr16.1.jpg";
 
-import TrashCan1 from "/others/pr17.1.avif";
-import TrashCan2 from "/others/pr17.2.avif";
+import TrashCan1 from "/others/pr17.1.jpg";
+import TrashCan2 from "/others/pr17.2.jpg";
 
-import ShelfCover1 from "/others/pr18.1.avif";
-import ShelfCover2 from "/others/pr18.2.avif";
+import ShelfCover1 from "/others/pr18.1.jpg";
+import ShelfCover2 from "/others/pr18.2.jpg";
 
-import Bin1 from "/others/pr19.1.avif";
-import Bin2 from "/others/pr19.2.avif";
+import Bin1 from "/others/pr19.1.jpg";
+import Bin2 from "/others/pr19.2.jpg";
 
-import RecycleBag1 from "/others/pr20.1.avif";
-import RecycleBag2 from "/others/pr20.2.avif";
+import RecycleBag1 from "/others/pr20.1.jpg";
+import RecycleBag2 from "/others/pr20.2.jpg";
 
-import Hallbar1 from "/others/pr21.1.avif";
-import Hallbar2 from "/others/pr21.2.avif";
+import Hallbar1 from "/others/pr21.1.jpg";
+import Hallbar2 from "/others/pr21.2.jpg";
 
-import Umbrella1 from "/others/pr22.1.avif";
-import Umbrella2 from "/others/pr22.2.avif";
+import Umbrella1 from "/others/pr22.1.jpg";
+import Umbrella2 from "/others/pr22.2.jpg";
 
-import Hanger1 from "/others/pr23.1.avif";
-import Hanger2 from "/others/pr23.2.avif";
+import Hanger1 from "/others/pr23.1.jpg";
+import Hanger2 from "/others/pr23.2.jpg";
 
-import DoorHanger1 from "/others/pr24.1.avif";
-import DoorHanger2 from "/others/pr24.2.avif";
+import DoorHanger1 from "/others/pr24.1.jpg";
+import DoorHanger2 from "/others/pr24.2.jpg";
 
 import ClotheStand1 from "/others/pr25.1.jpg";
-import ClotheStand2 from "/others/pr25.2.avif";
+import ClotheStand2 from "/others/pr25.2.jpg";
 
 export const AllProducts = [
   {
@@ -200,7 +200,7 @@ export const AllProducts = [
   },
   {
     id: 15,
-    img: "/others/organizer.avif",
+    img: "/others/organizer.jpg",
     OtherImg: [Organizer1, Organizer2],
     category: "bathroom",
     name: "NOJIG",
