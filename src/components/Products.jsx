@@ -140,7 +140,7 @@ export const AllProducts = [
   },
   {
     id: 9,
-    img: "/product/pr9.avif",
+    img: "/product/pr9.jpg",
     OtherImg: [MiniChair1, MiniChair2],
     category: "Chairs",
     name: "KARLJAN",
@@ -150,7 +150,7 @@ export const AllProducts = [
   },
   {
     id: 10,
-    img: "/product/pr10.avif",
+    img: "/product/pr10.jpg",
     OtherImg: [Lamp1, Lamp2],
     category: "Furniture",
     name: "RINGSTA",
@@ -160,7 +160,7 @@ export const AllProducts = [
   },
   {
     id: 11,
-    img: "/product/electronics.avif", 
+    img: "/product/electronics.jpg", 
     category: "electronics",
     OtherImg: [Headset1, Headset2],
     name: "MÖJLIGHET",
@@ -170,7 +170,7 @@ export const AllProducts = [
   },
   {
     id: 12,
-    img: "/product/kitchen.avif",
+    img: "/product/kitchen.jpg",
     OtherImg: [Oven1, Oven2],
     category: "kitchen",
     name: "GÖRLIG",
@@ -180,7 +180,7 @@ export const AllProducts = [
   },
   {
     id: 13,
-    img: "/product/kitchen2.avif",
+    img: "/product/kitchen2.jpg",
     OtherImg: [Knife1, Knife2],
     category: "kitchen",
     name: "Bread Knife",
@@ -190,7 +190,7 @@ export const AllProducts = [
   },
   {
     id: 14,
-    img: "/product/bathroom.avif",
+    img: "/product/bathroom.jpg",
     OtherImg: [Basket1, Basket2],
     category: "bathroom",
     name: "TISKEN",
@@ -210,7 +210,7 @@ export const AllProducts = [
   },
   {
     id: 16,
-    img: "/product/pr16.avif",
+    img: "/product/pr16.jpg",
     OtherImg: [ToilerRollHolder1],
     category: "bathroom",
     name: "LILLASJÖN",
@@ -220,7 +220,7 @@ export const AllProducts = [
   },
   {
     id: 17,
-    img: "/product/rs1.avif",
+    img: "/product/rs1.jpg",
     OtherImg: [TrashCan1, TrashCan2],
     category: "Rain Season Item",
     name: "VARIERA",
@@ -230,7 +230,7 @@ export const AllProducts = [
   },
   {
     id: 18,
-    img: "/product/rs2.avif",
+    img: "/product/rs2.jpg",
     OtherImg: [ShelfCover1, ShelfCover2],
     category: "Rain Season Item",
     name: "Hylis",
@@ -260,7 +260,7 @@ export const AllProducts = [
   },
   {
     id: 21,
-    img: "/product/rs5.avif",
+    img: "/product/rs5.jpg",
     OtherImg: [Hallbar1, Hallbar2],
     category: "Rain Season Item",
     name: "Hallbar",
@@ -270,7 +270,7 @@ export const AllProducts = [
   },
   {
     id: 22,
-    img: "/product/rs6.avif",
+    img: "/product/rs6.jpg",
     OtherImg: [Umbrella1, Umbrella2],
     category: "Rain Season Item",
     name: "Knalla",
@@ -280,7 +280,7 @@ export const AllProducts = [
   },
   {
     id: 23,
-    img: "/product/rs7.webp",
+    img: "/product/rs7.jpg",
     OtherImg: [Hanger1, Hanger2],
     category: "Rain Season Item",
     name: "Tjusig",
@@ -290,7 +290,7 @@ export const AllProducts = [
   },
   {
     id: 24,
-    img: "/product/rs8.avif",
+    img: "/product/rs8.jpg",
     OtherImg: [DoorHanger1, DoorHanger2],
     category: "Rain Season Item",
     name: "Enudden",
@@ -300,7 +300,7 @@ export const AllProducts = [
   },
   {
     id: 25,
-    img: "/product/rs9.avif",
+    img: "/product/rs9.jpg",
     OtherImg: [ClotheStand1, ClotheStand2],
     category: "Rain Season Item",
     name: "Krokig",
