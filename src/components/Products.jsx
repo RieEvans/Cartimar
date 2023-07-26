@@ -62,7 +62,7 @@ import ClotheStand2 from "/others/pr25.2.avif"
 export const AllProducts = [
   {
     id: 1,
-    img: "/product/pr1.avif",
+    img: "../product/pr1.avif",
     OtherImg: [Pillow1, Pillow2],
     category: "Furniture",
     name: "KVARNVEN",
@@ -72,7 +72,7 @@ export const AllProducts = [
   },
   {
     id: 2,
-    img: "/product/pr2.avif",
+    img: "../product/pr2.avif",
     OtherImg: [Bag1, Bag2],
     category: "Furniture",
     name: "RÄCKLA",
@@ -82,7 +82,7 @@ export const AllProducts = [
   },
   {
     id: 3,
-    img: "/product/pr3.avif",
+    img: "../product/pr3.avif",
     OtherImg: [Pad1, Pad2],
     category: "Furniture",
     name: "REXBEGONIA",
@@ -92,7 +92,7 @@ export const AllProducts = [
   },
   {
     id: 4,
-    img: "/product/pr4.avif",
+    img: "../product/pr4.avif",
     OtherImg: [WaterProof1, WaterProof2],
     category: "Furniture",
     name: "RENSARE",
@@ -102,7 +102,7 @@ export const AllProducts = [
   },
   {
     id: 5,
-    img: "/product/pr5.avif",
+    img: "../product/pr5.avif",
     OtherImg: [LaundryBag1, LaundryBag2],
     category: "Furniture",
     name: "KNALLA",
@@ -112,7 +112,7 @@ export const AllProducts = [
   },
   {
     id: 6,
-    img: "/product/pr6.avif",
+    img: "../product/pr6.avif",
     OtherImg: [Cabinet1, Cabinet2],
     category: "Furniture",
     name: "KLEPPSTAD",
@@ -122,7 +122,7 @@ export const AllProducts = [
   },
   {
     id: 7,
-    img: "/product/pr7.avif",
+    img: "../product/pr7.avif",
     OtherImg: [Chair1, Chair2],
     category: "Chairs",
     name: "LISABO",
@@ -132,7 +132,7 @@ export const AllProducts = [
   },
   {
     id: 8,
-    img: "/product/pr8.avif",
+    img: "../product/pr8.avif",
     category: "Chairs",
     OtherImg: [ChairGray1, ChairGray2],
     name: "ÄSPHULT",
@@ -142,7 +142,7 @@ export const AllProducts = [
   },
   {
     id: 9,
-    img: "/product/pr9.avif",
+    img: "../product/pr9.avif",
     OtherImg: [MiniChair1, MiniChair2],
     category: "Chairs",
     name: "KARLJAN",  
@@ -152,7 +152,7 @@ export const AllProducts = [
   },
   {
     id: 10,
-    img: "/product/pr10.avif",
+    img: "../product/pr10.avif",
     OtherImg: [Lamp1, Lamp2],
     category: "Furniture",
     name: "RINGSTA",
@@ -162,7 +162,7 @@ export const AllProducts = [
   },
   {
     id: 11,
-    img: "/product/electronics.avif",
+    img: "../product/electronics.avif",
     category: "electronics",
     OtherImg: [Headset1, Headset2],
     name: "MÖJLIGHET",
@@ -172,7 +172,7 @@ export const AllProducts = [
   },
   {
     id: 12,
-    img: "/product/kitchen.avif",
+    img: "../product/kitchen.avif",
     OtherImg: [Oven1, Oven2],
     category: "kitchen",
     name: "GÖRLIG",
@@ -182,7 +182,7 @@ export const AllProducts = [
   },
   {
     id: 13,
-    img: "/product/kitchen2.avif",
+    img: "../product/kitchen2.avif",
     OtherImg: [Knife1, Knife2],
     category: "kitchen",
     name: "Bread Knife",
@@ -192,7 +192,7 @@ export const AllProducts = [
   },
   {
     id: 14,
-    img: "/product/bathroom.avif",
+    img: "../product/bathroom.avif",
     OtherImg: [Basket1, Basket2],
     category: "bathroom",
     name: "TISKEN",
@@ -202,7 +202,7 @@ export const AllProducts = [
   },
   {
     id: 15,
-    img: "/others/organizer.avif",
+    img: "../others/organizer.avif",
     OtherImg: [Organizer1, Organizer2],
     category: "bathroom",
     name: "NOJIG",
@@ -212,7 +212,7 @@ export const AllProducts = [
   },
   {
     id: 16,
-    img: "/product/pr16.avif",
+    img: "../product/pr16.avif",
     OtherImg: [ToilerRollHolder1],
     category: "bathroom",
     name: "LILLASJÖN",
@@ -222,7 +222,7 @@ export const AllProducts = [
   },
   {
     id: 17,
-    img: "/product/rs1.avif",
+    img: "../product/rs1.avif",
     OtherImg: [TrashCan1, TrashCan2],
     category: "Rain Season Item",
     name: "VARIERA",
@@ -232,7 +232,7 @@ export const AllProducts = [
   },
   {
     id: 18,
-    img: "/product/rs2.avif",
+    img: "../product/rs2.avif",
     OtherImg: [ShelfCover1, ShelfCover2],
     category: "Rain Season Item",
     name: "Hylis",
@@ -242,7 +242,7 @@ export const AllProducts = [
   },
   {
     id: 19,
-    img: "/product/rs3.jpg",
+    img: "../product/rs3.jpg",
     OtherImg: [Bin1, Bin2],
     category: "Rain Season Item",
     name: "Sortera",
@@ -252,7 +252,7 @@ export const AllProducts = [
   },
   {
     id: 20,
-    img: "/product/rs4.avif",
+    img: "../product/rs4.avif",
     OtherImg: [RecycleBag1, RecycleBag2],
     category: "Rain Season Item",
     name: "Ajoss  ",
@@ -262,7 +262,7 @@ export const AllProducts = [
   },
   {
     id: 21,
-    img: "/product/rs5.avif",
+    img: "../product/rs5.avif",
     OtherImg: [Hallbar1, Hallbar2],
     category: "Rain Season Item",
     name: "Hallbar",
@@ -272,7 +272,7 @@ export const AllProducts = [
   },
   {
     id: 22,
-    img: "/product/rs6.avif",
+    img: "../product/rs6.avif",
     OtherImg: [Umbrella1, Umbrella2],
     category: "Rain Season Item",
     name: "Knalla",
@@ -282,7 +282,7 @@ export const AllProducts = [
   },
   {
     id: 23,
-    img: "/product/rs7.webp",
+    img: "../product/rs7.webp",
     OtherImg: [Hanger1, Hanger2],
     category: "Rain Season Item",
     name: "Tjusig",
@@ -292,7 +292,7 @@ export const AllProducts = [
   },
   {
     id: 24,
-    img: "/product/rs8.avif",
+    img: "../product/rs8.avif",
     OtherImg: [DoorHanger1, DoorHanger2],
     category: "Rain Season Item",
     name: "Enudden",
@@ -302,7 +302,7 @@ export const AllProducts = [
   },
   {
     id: 25,
-    img: "/product/rs9.avif",
+    img: "../product/rs9.avif",
     OtherImg: [ClotheStand1, ClotheStand2],
     category: "Rain Season Item",
     name: "Krokig",
