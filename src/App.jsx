@@ -30,9 +30,8 @@ export default function App() {
   };
   const notify = () => // Notification //Pass this function into the Context Provider
     toast(
-      "Add to Cart Succeed", 
+      "✔️ Add to Cart Succeed", 
       {
-        icon: "✔️",
         style: {
           borderRadius: "10px",
           background: "#333",
@@ -42,9 +41,8 @@ export default function App() {
       }
     );
   const notifyDeleteItem = () => toast(
-    "Item has been removed ", 
+    "🗑️ Item has been removed ", 
     {
-      icon: "🗑️",
       style: {
         borderRadius: "10px",
         background: "#333",
